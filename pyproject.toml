@@ -8,6 +8,7 @@ authors = ["otajisan <mtaji@morningcode.io>"]
 python = "^3.10"
 mysqlclient = "^2.1.0"
 Scrapy = "^2.6.1"
+bs4 = "^0.0.1"
 
 [tool.poetry.dev-dependencies]
 
