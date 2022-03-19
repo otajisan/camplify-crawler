@@ -6,7 +6,8 @@ authors = ["otajisan <mtaji@morningcode.io>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Django = "^4.0.3"
+mysqlclient = "^2.1.0"
+Scrapy = "^2.6.1"
 
 [tool.poetry.dev-dependencies]
 

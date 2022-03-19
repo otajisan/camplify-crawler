@@ -9,7 +9,7 @@ pipenv install poetry
 pipenv shell
 
 poetry init
-poetry add django
-poetry run django-admin startproject camplify_crawler .
-poetry run ./manage.py startapp crawler
+
+poetry add scrapy
+poetry run scrapy startproject camplify_crawler .
 ```
