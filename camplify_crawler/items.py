@@ -8,4 +8,4 @@ import scrapy
 
 class CamplifyCrawlerItem(scrapy.Item):
     url = scrapy.Field()
-    title = scrapy.Field()
+    name = scrapy.Field()
